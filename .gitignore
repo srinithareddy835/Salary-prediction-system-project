@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+backend/dataset.csv
+backend/model.joblib
+node_modules/
+.env
+.DS_Store
