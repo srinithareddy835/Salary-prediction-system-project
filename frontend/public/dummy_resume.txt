@@ -1,0 +1,6 @@
+Jane Doe
+Data Scientist
+Experience: 5 Years
+Location: Bangalore
+Skills: Python, Machine Learning, SQL, Deep Learning
+Education: Master's in Computer Science
