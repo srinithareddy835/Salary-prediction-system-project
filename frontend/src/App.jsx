@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Briefcase, Building2, MapPin, Award, BookOpen, Star, DollarSign, Loader2, UploadCloud, BarChart3, TrendingUp, CheckCircle, AlertCircle } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000/api';
 
 function App() {
   const [activeTab, setActiveTab] = useState('predict');
