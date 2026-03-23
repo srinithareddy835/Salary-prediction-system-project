@@ -10,12 +10,14 @@ services:
         value: 3.11.4
     autoDeploy: true
 
-  - type: static
+  - type: web
     name: salary-frontend
+    runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
-    publishPath: dist
+    staticPublishPath: dist
     autoDeploy: true
-    routes:
+    headers:
       - path: /*
-        destination: /index.html
+        name: Cache-Control
+        value: max-age=3600
