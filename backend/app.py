@@ -8,7 +8,7 @@ import io
 import requests
 import PyPDF2
 from dotenv import load_dotenv
-from salary_prediction import SalaryPredictor
+from backend.salary_prediction import SalaryPredictor
 
 load_dotenv()
 
